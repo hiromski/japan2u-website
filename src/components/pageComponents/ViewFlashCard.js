@@ -1,0 +1,32 @@
+import classes from './ViewFlashCard.module.css'
+import FlashCard from '../ui/FlashCard'
+
+function ViewFlashCard(props) {
+    function deleteHandler() {
+        fetch(
+            `https://japan2u-flashcards-default-rtdb.firebaseio.com/flashcard/${props.id}.json`,
+            {
+                method: "DELETE"
+            },
+        ).then(() => {
+            window.location.reload()
+        })
+    }
+
+    return(
+      <li style={{ listStyle: "none" }}>
+          <FlashCard>
+            <div className={classes.word}>
+                {props.engWord}
+            </div>
+            <div  className={classes.word}>
+                {props.jpnWord}
+            </div>
+            <button className={classes.button} onClick={deleteHandler}>Delete</button>
+          </FlashCard>
+      </li>
+    )
+
+}
+
+export default ViewFlashCard

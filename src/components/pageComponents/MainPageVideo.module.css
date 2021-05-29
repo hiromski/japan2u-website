@@ -1,0 +1,13 @@
+.video {
+  margin: auto;
+  padding-left: 100px;
+}
+
+.c2 {
+    background:green;
+    float:right;
+}
+
+.wrapper {
+    overflow:auto;
+ }

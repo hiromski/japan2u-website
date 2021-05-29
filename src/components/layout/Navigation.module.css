@@ -1,0 +1,54 @@
+.banner {
+  width: auto;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("C:\Users\hirom\OneDrive\Documents\VScode\Japan2U-website\my-app\src\pictures\fuji-cherry.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position-y: 15%;
+  padding: 0 10%;
+}
+
+.logo {
+  font-size: 3.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.banner ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.banner li {
+  margin-left: 3rem;
+}
+
+.banner a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.banner a:hover,
+.banner a:active,
+.banner a.active {
+  color: white;
+}
+
+.badge {
+  background-color: #cc2062;
+  color: white;
+  border-radius: 12px;
+  padding: 0 1rem;
+  margin-left: 0.5rem;
+}
