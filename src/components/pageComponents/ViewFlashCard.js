@@ -16,9 +16,9 @@ function ViewFlashCard(props) {
     return(
       <li style={{ listStyle: "none" }}>
           <FlashCard>
-            <div className={classes.word}>
+            <h3 className={classes.word}>
                 {props.engWord}
-            </div>
+            </h3>
             <div  className={classes.word}>
                 {props.jpnWord}
             </div>

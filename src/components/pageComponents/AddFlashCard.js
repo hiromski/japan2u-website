@@ -21,8 +21,8 @@ export function AddFlashCard(props) {
         }
 
         props.onAdd(flashCardData)
-        window.alert("Flashcard Added!")
         window.location.reload()
+        window.alert("Flashcard Added!")
     }
   
 
