@@ -9,7 +9,7 @@ function Navigation() {
         <div>
           <ul>
             <li>
-              <Link to="/"> Main Page</Link>
+              <Link to="/japan2u"> Main Page</Link>
             </li>
             <li>
               <Link to= "/flash-card">Flash Card</Link>
