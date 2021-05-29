@@ -14,7 +14,7 @@ function App() {
     <div>
       <Layout>
         <Switch>
-          <Route path="/" exact>
+          <Route path="/japan2u" exact>
             <MainPage />
           </Route>
           <Route path="/flash-card">

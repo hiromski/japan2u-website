@@ -5,6 +5,9 @@ function MainPageVideo() {
   return (
     <div>
       <div>
+        <h1 style={{textAlign: 'center'}}>
+              Welcome To Best Japanese Lesson in the World
+        </h1>
         <Poster>
           <iframe
             className={classes.video}
